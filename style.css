@@ -1,0 +1,250 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+nav .nav-head{
+    font-size: 45px;
+    font-family:"Brush Script MT", cursive;
+    font-weight:900;
+    color:rgb(100, 144, 214);
+    padding-left: 22px;
+}
+nav .nav-head ul li a
+{
+    font-size:50px;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 15px;
+}
+.main{
+    background-image: url(image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.main .side-logo{
+    flex:50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.mian .side-logo img{
+    height:600px; 
+    width:500px;
+ }
+.main .right-logo{
+   margin: auto;
+   flex:50%;
+}
+.about-head
+{
+    background-image: url(image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.about
+{
+    display:flex;
+    padding-top:10px;
+}
+.about .about-left
+{
+    flex:50%;
+    align-items: center;
+    text-align: center;
+    font-weight: 900,bold;
+    padding:10px;
+    padding-top: 100px;
+}
+.about .about-right img{
+  height: 400px;
+  width: 400px;
+}
+.about .about-right
+{
+    padding-left: 120px;
+    flex: 50%;
+}
+.skill-head
+{  
+    background-image: url(image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skills
+{
+    width:500px;
+    margin:auto;
+    padding-bottom: 40px;
+}
+.skills-main
+{
+    width: 500px;
+    margin:60px auto;
+    position: fixed;
+    color:rgb(12, 12, 12);
+}
+h1{
+    text-align: center;
+}
+h3
+{
+    margin: 5px;
+}
+.skills ul
+{
+    list-style: none;
+}
+.bar
+{
+    background-color: rgb(40, 37, 37);
+    display:block;
+    height:20px;
+    border:1px solid rgba(0,0,0,0,0.3);
+    border-radius:60px;
+    overflow:hidden
+}
+.bar span{
+    height:20px;
+    float:left;
+    background:linear-gradient(130deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%)
+}
+.html
+{
+    width:90%;
+    animation:html 3s;
+}
+.css
+{
+    width:70%;
+    animation:css 3s;
+}
+.js
+{
+    width:50%;
+}
+.c{
+    width:60%;
+}
+.clan
+{
+width:80%;
+}
+.java
+{
+    width:40%;
+}
+.coding
+{
+    background-image: url(image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
+}
+.h1
+{
+    padding-left: 42%;
+    font-size: 28px;
+    font-weight: 900;
+}
+.pro
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-block: 10px;
+}
+.pro-image img
+{
+    align-items: center;
+    height: 100px;
+    width: 250px;
+    padding:10px;
+}
+.pro-content
+{
+    height: 200px;
+    width:250px;
+    background-color: rgb(109, 94, 94);
+    border-radius: 20px;
+    align-items: center;
+    margin:40px;
+}
+.pro-content button {
+        background-color: #1c87c9;
+        border: none;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 2px 40px;
+        cursor: pointer;
+        border-radius: 40px;
+}
+.pro-content .rate
+{
+    padding:10px;
+}
+.pro-content .rate h3
+{
+    padding-left:30px;
+}
+.form 
+{
+    background-image: url(image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    height:500px;
+}
+.form-out
+{
+    height: 400px;
+    width: 400px;
+    background-color: bisque;
+    border-radius: 20px;
+    border-bottom: #1c87c9;
+    padding-top: 50px;
+    margin:20px 550px;
+}
+.form-out form
+{
+    padding-left:30px;
+}
+.form-out .form-in .submit
+{
+    border-radius: 10%;
+    height: 20px;
+    width: 80px;
+    align-items: center;
+}
